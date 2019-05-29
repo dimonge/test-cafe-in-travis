@@ -8,11 +8,12 @@
     "test:firefox": "testcafe firefox testing.js -e",
     "test:chrome": "testcafe chrome testing.js -e",
     "test:con": "testcafe -c 4 safari,firefox testing.js -e",
-    "test": "testcafe \"saucelabs:Chrome@beta:Windows 10\" testing.js"
+    "test":  "testcafe chrome,firefox testing.js"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "sauce-connect-launcher": "^1.2.7",
     "testcafe": "^1.1.4",
     "testcafe-browser-provider-saucelabs": "^1.7.0"
   }
