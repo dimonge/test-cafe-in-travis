@@ -1,0 +1,17 @@
+{
+  "name": "test-cafe",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test:safari": "testcafe safari testing.js -e",
+    "test:firefox": "testcafe firefox testing.js -e",
+    "test:chrome": "testcafe chrome testing.js -e",
+    "test:con": "testcafe -c 4 safari,firefox testing.js -e"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "testcafe": "^1.1.4"
+  }
+}
