@@ -1,6 +1,6 @@
 import Page from "./basic-page-model";
 import { loginUser } from "./login-test";
-fixture`My first fixture`.page`https://kakkosnelonen.fi/live/`;
+fixture`My first fixture`.page`http://kakkosnelonen.fi/live/`;
 
 const page = new Page();
 
